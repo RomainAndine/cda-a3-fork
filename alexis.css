@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 380px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#resultat {
+    margin-top: 20px;
+}
