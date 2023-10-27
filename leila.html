@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjugaison</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./leila.css">
+</head>
+<body>
+    <h1>Conjugaison des verbes</h1>
+    <div class="container">
+        <!-- saisie et conjugaison des verbes -->
+        <label for="verb">Entrez un verbe</label>
+        <input type="text" name="verb" id="verb">
+        <select name="select-tense" id="select-tense">
+            <option value="present" selected>Présent</option>
+            <option value="futur">Futur</option>
+            <option value="imparfait">Imparfait</option>
+        </select>
+        <button id="btn-conjugate">Conjuguer</button>
+    </div>
+
+    <!-- affichage des terminaisons  -->
+    <h2>Verbe conjugué</h2>
+    <div id="conjugation"></div>
+
+    <script src="./leila.js"></script>
+</body>
+</html>
