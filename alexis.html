@@ -8,25 +8,27 @@
   </head>
   <body>
     <section class="App">
-      <h1>Conjugaison de verbes</h1>
-      <label for="infinitif">Verbe à l'infinitif :</label>
-      <input
-        type="text"
-        id="infinitif"
-        placeholder="Entrez le verbe à l'infinitif"
-      />
+      <div class="App-content">
+        <h1>Conjugaison de verbes</h1>
+        <label for="infinitif">Verbe à l'infinitif :</label>
+        <input
+          type="text"
+          id="infinitif"
+          placeholder="Entrez le verbe à l'infinitif"
+        />
 
-      <label for="temps">Choisissez le temps :</label>
-      <select id="temps">
-        <option value="present">Présent</option>
-        <option value="imparfait">Imparfait</option>
-        <option value="passe_compose">Passé composé</option>
-        <option value="futur">Futur</option>
-      </select>
+        <label for="temps">Choisissez le temps :</label>
+        <select id="temps">
+          <option value="present">Présent</option>
+          <option value="imparfait">Imparfait</option>
+          <option value="passe_compose">Passé composé</option>
+          <option value="futur">Futur</option>
+        </select>
 
-      <button id="conjuguer">Conjuguer</button>
+        <button id="conjuguer">Conjuguer</button>
 
-      <div id="resultat"></div>
+        <div id="resultat"></div>
+      </div>
     </section>
     <script src="alexis.js"></script>
   </body>
