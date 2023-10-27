@@ -19,7 +19,7 @@ btn.addEventListener('click', () => {
             soustraction(valueValeur1, valueValeur2);
             break;
         case "multiplying":
-            multiplication(valueValeur1, valeur2);
+            multiplication(valueValeur1, valueValeur2);
             break;
         case "dividing":
             division(valueValeur1, valueValeur2);
