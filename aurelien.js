@@ -17,9 +17,7 @@ const valueChecker = (input) => {
     if (isNaN(e.key) && input.value !== ""){
         alert("merci de rentrer uniquement un nombre !")
         input.value = "";
-        return isComplete = false;
     } 
-    return isComplete = true;
 })
 }
 
