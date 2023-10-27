@@ -22,3 +22,13 @@ button.addEventListener('click', ()=>{
     p.innerHTML=v1/v2
    }
 })
+
+var inserer=document.querySelector("#inserer")
+var text=document.querySelector("#texte")
+var input=document.querySelectorAll("input")
+inserer.addEventListener("click", ()=>{
+    input.forEach(element => {
+       console.log(element.value); 
+ 
+    })}
+)
