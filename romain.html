@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./romain.css" />
+    <title>Calculatrice</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Calculatrice</h1>
+    </header>
+    <main class="main">
+      <div class="calculate">
+        <label class="selector-label" for="value1">Première valeur</label>
+        <input class="selector"  type="number" name="value1" id="value1" />
+        <label class="selector-label"  for="value2">Deuxième valeur</label>
+        <input class="selector"  type="number" name="value2" id="value2" />
+
+        <select class="selector"  name="operator" id="operator-select">
+          <option class="selector"  value="">Choisir un operateur</option>
+          <option class="selector"  value="add">+</option>
+          <option class="selector"  value="substract">-</option>
+          <option class="selector"  value="multiply">*</option>
+          <option class="selector"  value="divide">/</option>
+        </select>
+        <button class="selector"  id="calculate">Calculer</button>
+      </div>
+      <div id="result">
+        <p>Le résultat est : <span id="result-value"></span></p>
+      </div>
+    </main>
+    <script src="./romain.js"></script>
+  </body>
+</html>
