@@ -1,3 +1,5 @@
+// commentaire
+
 const calculate = () => {
     let firstNumber = document.getElementById("value1").value;
     let secondNumber = document.getElementById("value2").value;
