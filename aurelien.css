@@ -1,0 +1,21 @@
+input {
+    border-radius: 0.2rem;
+    margin : 0.1rem;
+    width: 8rem;
+}
+
+select {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+button {
+    background-color: rgb(69, 165, 69);
+    border-radius: 0.2rem;
+    color: white;
+    padding: 0.3rem 0.8rem;
+}
+button:hover {
+    cursor: pointer;
+}
